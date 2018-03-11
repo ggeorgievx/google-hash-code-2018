@@ -27,7 +27,7 @@ node index.js (a | b | c | d | e)
 | [C - no hurry](./input/c_no_hurry.in)             | [15,803,878](./output/c_no_hurry.out)    |
 | [D - metropolis](./input/d_metropolis.in)         | [10,677,057](./output/d_metropolis.out)  |
 | [E - high bonus](./input/e_high_bonus.in)         | [21,461,975](./output/e_high_bonus.out)  |
-       Total score: 48,119,797 (401/2382 in the extended round)
+       Total score: 48,119,797 (402/2386 in the extended round)
 
 ## Authors:
 
