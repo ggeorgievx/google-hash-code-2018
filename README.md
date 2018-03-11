@@ -3,6 +3,7 @@
 # Solution to the 2018 Google Hash Code online qualification round (Javascript)
 
 #### https://hashcode.withgoogle.com
+#### #hashcodesolved
 
 ## Problem Statement
 
@@ -36,6 +37,6 @@ node index.js (a | b | c | d | e)
 
 ## Authors:
 
-#### Georgi Georgiev [@ggeorgiev](https://github.com/ggeorgievx)
+#### Georgi Georgiev [@ggeorgievx](https://github.com/ggeorgievx)
 
 #### Lazar Malezanov [@lazar-malezanov](https://github.com/lazar-malezanov)
