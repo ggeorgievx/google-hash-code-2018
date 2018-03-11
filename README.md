@@ -1,4 +1,4 @@
-<img src='https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hashcode_hero.max-1000x1000.png' width='700' height='100'>
+<img src='./other/logo.png' width='800' height='200'>
 
 # Solution to the 2018 Google Hash Code online qualification round (Javascript)
 
@@ -6,7 +6,12 @@
 
 ## Problem Statement
 
-#### [PDF](./online_qualification_round_2018.pdf)
+#### [PDF](./other/online_qualification_round_2018.pdf)
+
+## Algorithm
+
+#### While there are unassigned rides, our algorithm takes a vehicle that has below the average steps (distance travelled) and assigns it the best possible ride for that vehicle, using this formula (you can try coming up with a better one):
+ ![](./other/formula.gif)
 
 ## Usage
 
