@@ -77,7 +77,7 @@ const isThereAPossibleRideForVehicle = vehicle =>
   database.rides.filter(ride => !ride.isTaken).some(ride => canRideBeCompletedOnTimeByVehicle(vehicle, ride));
 
 const isThereAVehicleBelowAvgStepsThatCanStillAcceptRide = () =>
-  database.vehicles.filter(vehicle => vehicle.step <= database.averageVehicleSteps && isThereAPossibleRideForVehicle(vehicle))[0];
+  database.vehicles.find(vehicle => vehicle.step <= database.averageVehicleSteps && isThereAPossibleRideForVehicle(vehicle));
 
 const isThereAVehicleThatCanStillAcceptRide = () => {
   const vehicleBelowAvg = isThereAVehicleBelowAvgStepsThatCanStillAcceptRide();
@@ -85,7 +85,7 @@ const isThereAVehicleThatCanStillAcceptRide = () => {
     return vehicleBelowAvg;
   }
 
-  return database.vehicles.filter(vehicle => isThereAPossibleRideForVehicle(vehicle))[0];;
+  return database.vehicles.find(vehicle => isThereAPossibleRideForVehicle(vehicle));
 };
 
 const calculateHowGoodARideIs = (vehicle, ride) => {
